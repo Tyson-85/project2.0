@@ -5,7 +5,13 @@
     <title>index</title>
 </head>
 <body>
-<h1>Hello world.... wake up ...</h1>
-<p>good morning Django C2:PYTHON-2080</p>
+{% for dx in data %}
+
+<h1>Name : {{dx.name}}</h1>
+<h1>Name : {{dx.add}}</h1>
+<h1>Name : {{dx.contact}}</h1>
+<h1>Name : {{dx.email}}</h1>
+
+{% endfor %}
 </body>
 </html>
